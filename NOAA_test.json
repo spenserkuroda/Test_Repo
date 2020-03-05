@@ -1,0 +1,76 @@
+{
+ "currentVersion": 10.5,
+ "serviceDescription": "<DIV STYLE=\"text-align:Left;\"><DIV><P><SPAN>Layers of temperature and precipitation for the U.S. Out 6-10 days<\/SPAN><\/P><P><SPAN>Link to graphical web page: <\/SPAN><A href=\"http://www.cpc.ncep.noaa.gov\"><SPAN>http://www.cpc.ncep.noaa.gov<\/SPAN><\/A><\/P><P><SPAN>Link to data download (shapefile): <\/SPAN><A href=\"http://www.cpc.ncep.noaa.gov/products/GIS/GIS_DATA/us_tempprcpfcst/index.php\"><SPAN>http://www.cpc.ncep.noaa.gov/products/GIS/GIS_DATA/us_tempprcpfcst/index.php<\/SPAN><\/A><\/P><P><SPAN>Link to <\/SPAN><A href=\"http://www.nws.noaa.gov/geodata/metadata/cpc_6_10_day_outlk.xml\"><SPAN>metadata<\/SPAN><\/A><\/P><P><SPAN>Questions/Concerns about the service, please contact the <\/SPAN><A href=\"mailto:idp.gis.support@noaa.gov\"><SPAN>IDP-GIS <\/SPAN><\/A><SPAN>team<\/SPAN><\/P><P><SPAN /><\/P><P><SPAN STYLE=\"font-weight:bold;\">Time Information<\/SPAN><SPAN>:<\/SPAN><\/P><P><SPAN>This service is not time enabled.<\/SPAN><\/P><\/DIV><\/DIV>",
+ "mapName": "6-10 Day Temperature and Precipitation Outlooks",
+ "description": "A CPC forecaster creates the 6-10 day temperature and precipitation outlooks. Shading starts at 33%, with contours at 33%, 40%, 50%, 60%, 70%, 80% and 90%. The shaded areas in outlooks are of probabilities of above or below normal temperatures (above or below median precipitation). . Any area not specifically colored on the map delineate areas where near normal conditions are favored. The forecast valid period is 6-10 days into the future.",
+ "copyrightText": "NOAA/NWS Climate Prediction Center",
+ "supportsDynamicLayers": false,
+ "layers": [
+  {
+   "id": 0,
+   "name": "CPC 6-10 Day Temperature Outlook",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 2500000
+  },
+  {
+   "id": 1,
+   "name": "CPC 6-10 Day Precipitation Outlook",
+   "parentLayerId": -1,
+   "defaultVisibility": false,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 2500000
+  }
+ ],
+ "tables": [],
+ "spatialReference": {
+  "wkid": 4269,
+  "latestWkid": 4269
+ },
+ "singleFusedMapCache": false,
+ "initialExtent": {
+  "xmin": -387.98365003941944,
+  "ymin": -335.5904533658965,
+  "xmax": 174.60542024694143,
+  "ymax": 446.1880251390118,
+  "spatialReference": {
+   "wkid": 4269,
+   "latestWkid": 4269
+  }
+ },
+ "fullExtent": {
+  "xmin": -178.21759836267424,
+  "ymin": 18.921786344664042,
+  "xmax": -66.96927125836186,
+  "ymax": 71.40623539404834,
+  "spatialReference": {
+   "wkid": 4269,
+   "latestWkid": 4269
+  }
+ },
+ "minScale": 0,
+ "maxScale": 2500000,
+ "units": "esriDecimalDegrees",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "Temperature and Precipitation Outlooks 6-10 days",
+  "Author": "A CPC forecaster",
+  "Comments": "Layers of temperature and precipitation for the U.S. Out 6-10 days",
+  "Subject": "Precipitation and Temperature for 6-10 days",
+  "Category": "",
+  "AntialiasingMode": "None",
+  "TextAntialiasingMode": "Force",
+  "Keywords": "precipitation,temperature,forecast"
+ },
+ "capabilities": "Data,Map,Query",
+ "supportedQueryFormats": "JSON, AMF, geoJSON",
+ "exportTilesAllowed": false,
+ "supportsDatumTransformation": true,
+ "maxRecordCount": 1000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": "KmlServer, WFSServer, WMSServer"
+}
